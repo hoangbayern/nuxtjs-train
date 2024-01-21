@@ -1,0 +1,21 @@
+<!-- pages/index.vue -->
+<template>
+    <a-layout>
+      <AntHeader />
+      <a-layout-content>
+        <h1>Home Page</h1>
+        <!-- Các nội dung trang khác -->
+      </a-layout-content>
+    </a-layout>
+  </template>
+  
+  <script>
+  import AntHeader from '~/components/AntHeader.vue';
+  
+  export default {
+    components: {
+      AntHeader,
+    },
+  };
+  </script>
+  
